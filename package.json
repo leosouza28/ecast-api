@@ -1,0 +1,27 @@
+{
+  "name": "ecast-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Leonardo Souza",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "braintree": "^2.11.0",
+    "cors": "^2.8.4",
+    "jsonwebtoken": "^8.2.1",
+    "md5": "^2.2.1",
+    "moip-sdk-js": "^2.1.0",
+    "moip-sdk-node": "^1.2.0",
+    "mysql": "^2.15.0",
+    "node-jsencrypt": "^1.0.0",
+    "nodemon": "^1.17.4",
+    "paypal-rest-sdk": "^1.8.1",
+    "restify": "^7.1.1",
+    "xml2js": "^0.4.19"
+  }
+}
