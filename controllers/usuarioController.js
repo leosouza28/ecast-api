@@ -47,7 +47,7 @@ const Usuario = {
                 }
             })
             .catch(err => {
-                res.send(400, { erro: 'Estamos passando por instabilidades.' })
+                res.send(400, { erro: 'Usuário não identificado.' })
             })
     },
     novoCliente(req, res, next) {
