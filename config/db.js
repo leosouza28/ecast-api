@@ -1,15 +1,15 @@
 const mysql = require('mysql');
 
 const con = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '123',
-    port: 3306,
-    database: 'ecast',
-    // host: 'mysql.apiecast.kinghost.net',
-    // user: 'apiecast',
-    // password: 'laas2811',
-    // database: 'apiecast'
+    // host: 'localhost',
+    // user: 'root',
+    // password: '123',
+    // port: 3306,
+    // database: 'ecast',
+    host: 'mysql.app-ecast.com',
+    user: 'appecast',
+    password: 'leonardo28',
+    database: 'appecast'
 });
 
 con.connect(function (err) {
